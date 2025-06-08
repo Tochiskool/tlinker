@@ -24,8 +24,15 @@ section {
   margin-bottom: 2rem;
 }
 
+.site-container {
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+}
 /* Base style */
-header {
+/* Remove header after installing react-router-boostrap to use LinkContainer */
+/* header {
   background-color: #404040;
   padding: 1rem;
 }
@@ -33,7 +40,7 @@ header a {
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
-}
+} */
 
 /* Style products */
 main {
