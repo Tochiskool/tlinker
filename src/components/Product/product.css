@@ -1,6 +1,7 @@
 .btn-primary {
   color: #ffffff;
-  background-color: #a75c5c;
+  background-color: var(--btnBc);
   display: block;
   margin: 0 auto;
+  outline: none;
 }

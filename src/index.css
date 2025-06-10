@@ -1,3 +1,10 @@
+:root {
+  --mainBc: #fdf5f5;
+  --textColor: #29094a;
+  --btnColor:#404040;
+  --btnBc:#a75c5c;
+}
+
 *,
 *::before,
 *::after {
@@ -13,8 +20,8 @@ html {
 
 body {
   font-family: 'Inter', system-ui, sans-serif;
-  background-color: #fff;
-  color: #111;
+  background-color: var(mainBc);
+  color: var(--textColor);
   line-height: 1.6;
   /* padding: 1rem; */
 }
@@ -44,21 +51,5 @@ header a {
 
 /* Style products */
 main {
-  padding: 1rem;
-}
-.products {
-  display: flex;
-  flex-wrap: wrap;
-}
-.product {
-  border: 1px #404040 solid;
-  margin: 0.5rem;
-  justify-content: center;
-}
-.product img {
-  width: 100%;
-  max-width: 400px;
-}
-.product-info {
   padding: 1rem;
 }

@@ -1,0 +1,19 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product {
+  border: 1px var(--btnColor) solid;
+  margin: 0.5rem;
+  justify-content: center;
+}
+.product img {
+  width: 100%;
+  max-width: 400px;
+}
+.product-info {
+  padding: 1rem;
+}
+.img-large {
+  max-width: 100%;
+}
